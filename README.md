@@ -1,4 +1,4 @@
-* Emotion Classification Model Summary _ 0429 update
+# Emotion Classification Model Summary _ 0429 update
 
 ## 0 : Training CNN model => Mini Xception
 
