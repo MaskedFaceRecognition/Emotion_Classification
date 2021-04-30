@@ -11,7 +11,6 @@
 
 
 #### 0_2 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 64, shuffle=True, epochs = 60, 정확도 86.39%
-	==> Overflow!!!!
 	==> confusion matrix 확인 필요
 
 #### 0_2(1) : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 64, test shuffle = True, epochs = 10, 정확도 --?--
