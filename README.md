@@ -1,6 +1,7 @@
 # Emotion Classification Model Summary
 	0429 update : 각 모델 재구축 및 결과 정리 & confusion matrix 수정 & object detection 논문 searching
 	0430 update : 0_1 model 재구축 및 confusion matrix 확인완료
+		      0_2 Overfitting 해결
 
 ## 0 : Training CNN model => Mini Xception
 
