@@ -3,7 +3,8 @@
 	0430 update : 0_1 model 재구축 및 confusion matrix 확인완료
 		      0_2 Overfitting 해결 ( train과 test 모두 shuffle=True로 지정 ) & confusion matrix 해결( random number로 data set array index 지정 )
 	0501 update : 1_1 model 재구축 및 condusion matrix 확인완료
-	0512 update : 1_2 model epoch=6에서 local pc 내 디스크 공간 부족 발생 => colab이용
+	0512 update : 1_2 model epoch=6에서 local pc 내 디스크 공간 부족 발생 => 로컬 디스크 공간 확보
+	0515 update : 1_2 model epoch=19에서 local pc 내 디스크 공강 부족 발생 => colab 이용
 
 ## 0 : Training CNN model => Mini Xception
 
