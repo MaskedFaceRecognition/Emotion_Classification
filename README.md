@@ -21,9 +21,9 @@
 
 #### 0_3 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 16, shuffle = True, epochs = 60, 정확도 --?--
 
-### 0_4 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 8, shuffle = True, epochs = 60, 정확도 --?--
+#### 0_4 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 8, shuffle = True, epochs = 60, 정확도 --?--
 
-### 0_5 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 32, shuffle = True, epochs = 60, 정확도 --?--
+#### 0_5 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 32, shuffle = True, epochs = 60, 정확도 --?--
 
 
 
