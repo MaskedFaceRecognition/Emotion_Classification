@@ -8,6 +8,7 @@
 	0516 update : 0_3 model 구축 완료
 		      1_2 model in colab is stopped at epochs = 23 /60
 		      0_4 model 구축 완료
+	0517 update : 0_5 model 구축 완료
 
 ## 0 : Training CNN model => Mini Xception
 
@@ -25,7 +26,7 @@
 
 #### 0_4 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 8, shuffle = True, epochs = 60, 정확도 86.91%
 
-#### 0_5 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 32, shuffle = True, epochs = 60, 정확도 --?--
+#### 0_5 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 32, shuffle = True, epochs = 60, 정확도 84.94%
 
 
 
