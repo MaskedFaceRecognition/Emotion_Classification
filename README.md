@@ -5,9 +5,9 @@
 	0501 update : 1_1 model 재구축 및 condusion matrix 확인완료
 	0512 update : 1_2 model epoch=6에서 local pc 내 디스크 공간 부족 발생 => 로컬 디스크 공간 확보
 	0515 update : 1_2 model epoch=19에서 local pc 내 디스크 공강 부족 발생 => colab 이용
-	0516 update : 0_3 model 추가
+	0516 update : 0_3 model 구축 완료
 		      1_2 model in colab is stopped at epochs = 23 /60
-		      0_4 model is running
+		      0_4 model 구축 완료
 
 ## 0 : Training CNN model => Mini Xception
 
@@ -23,7 +23,7 @@
 
 #### 0_3 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 16, shuffle = True, epochs = 60, 정확도 85.48%
 
-#### 0_4 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 8, shuffle = True, epochs = 60, 정확도 --?--
+#### 0_4 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 8, shuffle = True, epochs = 60, 정확도 86.91%
 
 #### 0_5 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 32, shuffle = True, epochs = 60, 정확도 --?--
 
