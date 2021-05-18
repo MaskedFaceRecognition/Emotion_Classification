@@ -9,6 +9,7 @@
 		      1_2 model in colab is stopped at epochs = 23 /60
 		      0_4 model 구축 완료
 	0517 update : 0_5 model 구축 완료
+	0518 update : 1_2 model  " the upper toolbar > select 'Runtime' > 'Change Runtime Type' > hardware accelerator: select 'TPU' " 사용하여 RAM 공간 25GB에서 35.5GB로 확장 후 다시 시도
 
 ## 0 : Training CNN model => Mini Xception
 
