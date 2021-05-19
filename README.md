@@ -10,18 +10,15 @@
 		      0_4 model 구축 완료
 	0517 update : 0_5 model 구축 완료
 	0518 update : 1_2 model  " the upper toolbar > select 'Runtime' > 'Change Runtime Type' > hardware accelerator: select 'TPU' " 사용하여 RAM 공간 25GB에서 35.5GB로 확장 후 다시 시도
-
+	0519 update : 1_2 model 구축 완료 ( failed to upload model_best_1_2.h5 cuz of the size )
+	              1_2 model confusion matrix 해결
+		      
 ## 0 : Training CNN model => Mini Xception
 
 #### 0_1 : 수정되지 않은 데이터 ( angry, disgust, fear, happy, sad, surprise, neutral ) 사용, batch_size = 32, 정확도 52.06%, epochs = 10 
 	==> best model model_best_0_1.h5 정확도 0??
 
 #### 0_2 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 64, shuffle = True, epochs = 60, 정확도 84.29%
-
-#### 0_2(1) : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 64, 자체 shuffle 진행, epochs = 10, 정확도 --?--
-	==> Overflow!!!!
-	==> confusion matrix 확인 필요
-	==> 사용 X
 
 #### 0_3 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 16, shuffle = True, epochs = 60, 정확도 85.48%
 
@@ -36,13 +33,14 @@
 
 #### 1_1 : 수정되지 않은 데이터 ( angry, disgust, fear, happy, sad, surprise, neutral ) 사용, batch_size = 64, epochs = 60, 정확도 87.08%
 
-#### 1_2 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 64, epochs = 60, 정확도 91.33
-	==> 결과 재확인 필요
-	==> confusion matrix 확인 필요
+#### 1_2 : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 64, epochs = 60, 정확도 91.33(첫 시도는 구축 성공 but, 모델 저장 파일 존재X)
+	==> 메모리 부족 문제로 구축 실패
 
-#### 1_2(1) : 수정된 데이터 ( angry, happy, neutral ) 사용, batch_size = 64, test shuffle = True, epochs = 60, 정확도 --?--
-	==> 결과 확인 필요
-	==> overfitting 여부 & confusion matirx 정확도 확인 필요
+#### 1_2_colab : 1_2와 동일 정확도 96.22%
+	==> memory 부족 실패 at epochs =  23
+	==> memory 부족 문제 TPU 사용으로 해결
+	==> exist model_best_1_2.h5 at https://drive.google.com/file/d/10jv6YsbH2OccjC6xioJ3ID33R5Gsiy1I/view?usp=sharing
 
 #### 1_3 : 수정된 데이터 (angry, happy, neutral ) 사용, batch_size = 8, test shuffle = True, epochs = 60, train accuracy = 90.98%
 	==> confusion matrix 확인 필요
+
