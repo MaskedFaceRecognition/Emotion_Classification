@@ -39,7 +39,8 @@
 #### 1_2_colab : 1_2와 동일 정확도 96.22%
 	==> memory 부족 실패 at epochs =  23
 	==> memory 부족 문제 TPU 사용으로 해결
-	==> exist model_best_1_2.h5 at https://drive.google.com/file/d/10jv6YsbH2OccjC6xioJ3ID33R5Gsiy1I/view?usp=sharing
+	==> you can check model_best_1_2.h5 at https://drive.google.com/file/d/10jv6YsbH2OccjC6xioJ3ID33R5Gsiy1I/view?usp=sharing
+	==> you can check models_1_2 at https://drive.google.com/drive/folders/1ud1Xo5oV8bK3pGo2L9Z6xn4H5ANE5s9g?usp=sharing
 
 #### 1_3 : 수정된 데이터 (angry, happy, neutral ) 사용, batch_size = 8, test shuffle = True, epochs = 60, train accuracy = 90.98%
 	==> confusion matrix 확인 필요
