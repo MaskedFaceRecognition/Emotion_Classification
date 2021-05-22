@@ -53,3 +53,4 @@
 ## 2 : Training CNN model => DCNN
 
 #### 2_1 : 수정되지 않은 데이터 ( anger, happiness, sadness, neutral ) 사용, batch_size = 32, epochs = 100, 정확도 78%
+	==> exist model_best_2_1.h5 at https://drive.google.com/file/d/1-Fjw4UmNYQYcDs9K-Jt72LsSVquSWrgN/view?usp=sharing
