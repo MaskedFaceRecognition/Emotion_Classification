@@ -14,6 +14,8 @@
 	              1_2 model confusion matrix 해결
    	0522 update : 2_1 model 구축 완료
 		      1_3 model 진행중
+	0524 update : 1_3 model in colab ==> run time error
+		      2_2 model 진행중
 		      
 
 ## 0 : Training CNN model => Mini Xception
@@ -54,3 +56,5 @@
 
 #### 2_1 : 수정되지 않은 데이터 ( anger, happiness, sadness, neutral ) 사용, batch_size = 32, epochs = 100, 정확도 78%
 	==> exist model_best_2_1.h5 at https://drive.google.com/file/d/1-Fjw4UmNYQYcDs9K-Jt72LsSVquSWrgN/view?usp=sharing
+
+#### 2_2 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 60, 정확도 ----
