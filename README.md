@@ -17,6 +17,7 @@
 	0524 update : 1_3 model in colab ==> run time error
 		      2_2 model 진행중
 	0525 update : 2_2 model 구축 완료
+		      2_3 model 진행중
 
 ## 0 : Training CNN model => Mini Xception
 
@@ -58,3 +59,7 @@
 	==> exist model_best_2_1.h5 at https://drive.google.com/file/d/1-Fjw4UmNYQYcDs9K-Jt72LsSVquSWrgN/view?usp=sharing
 
 #### 2_2 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 60, 정확도 84.46%
+
+#### 2_3 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 120, 정확도 ---
+
+
