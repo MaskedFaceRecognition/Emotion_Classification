@@ -1,7 +1,7 @@
 # Emotion Classification Model Summary
 
-	*All models used fer2013 data as sample data
-	*You can see all checkpoints of each models at https://drive.google.com/drive/folders/1hskIQnNTQOURUH5a-f45LPSXG0Oi_vdp?usp=sharing
+	* All models used fer2013 data as sample data
+	* You can see all checkpoints of each models at https://drive.google.com/drive/folders/1hskIQnNTQOURUH5a-f45LPSXG0Oi_vdp?usp=sharing
 
 ## 0 : Training CNN model => Mini Xception
 
