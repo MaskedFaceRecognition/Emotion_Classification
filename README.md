@@ -18,6 +18,7 @@
 		      2_2 model 진행중
 	0525 update : 2_2 model 구축 완료
 		      2_3 model 진행중
+		      1_3 model 0327 구축 모델 확인
 
 ## 0 : Training CNN model => Mini Xception
 
@@ -48,8 +49,7 @@
 	==> exist model_best_1_2.h5 at https://drive.google.com/file/d/10jv6YsbH2OccjC6xioJ3ID33R5Gsiy1I/view?usp=sharing
 	==> exist models_1_2_colab at https://drive.google.com/drive/folders/1ud1Xo5oV8bK3pGo2L9Z6xn4H5ANE5s9g?usp=sharing
 
-#### 1_3 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 8, epochs = 60, train accuracy = 90.98%
-	==> confusion matrix 확인 필요
+#### 1_3 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 8, epochs = 60, train accuracy = 84.79%
 
 
 
@@ -59,6 +59,8 @@
 	==> exist model_best_2_1.h5 at https://drive.google.com/file/d/1-Fjw4UmNYQYcDs9K-Jt72LsSVquSWrgN/view?usp=sharing
 
 #### 2_2 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 60, 정확도 84.46%
+	==> exist model_best_2_2.h5 at https://drive.google.com/file/d/17I53Ks3UVeW5y_N5y3ln1wTn4dAZSdDZ/view?usp=sharing
+	==> exist models_2_2 at https://drive.google.com/drive/folders/1r_F43i2J6LzKbtM6RE6iEZ6D8XoVw494?usp=sharing
 
 #### 2_3 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 120, 정확도 ---
 
