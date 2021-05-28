@@ -44,6 +44,6 @@
 #### 2_2 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 60, 정확도 84.46%
 	==> exist model_best_2_2.h5 at https://drive.google.com/file/d/17I53Ks3UVeW5y_N5y3ln1wTn4dAZSdDZ/view?usp=sharing
 
-#### 2_3 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 120, 정확도 ---
+#### 2_3 : 수정된 데이터 ( anger, happiness, neutral ) 사용, batch_size = 64, epochs = 120, 정확도 82.53%
 
 
